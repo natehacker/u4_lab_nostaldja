@@ -1,0 +1,4 @@
+-- settings.sql
+CREATE DATABASE nathan;
+CREATE USER user WITH PASSWORD 'helloman';
+GRANT ALL PRIVILEGES ON DATABASE nathan TO user;
